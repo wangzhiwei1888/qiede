@@ -1,0 +1,395 @@
+
+body,ul,ol,p,h1,h2,h3,h4,dl,dd,form,input,textarea,select{padding: 0;margin:0;}
+li{list-style: none;}
+img{border: none;}
+a{text-decoration: none;}
+a:hover{text-decoration:none;}
+h1{font-family:微软雅黑;}
+
+.clear{*zoom:1}
+.clear:after{content:".";display:block;height:0;clear:both;overflow:hidden;visibility:hidden}
+.fl,.fc{float: left}
+.fr{float: right;}
+.left,.right,.center{float: left;}
+.right{float: right;}
+
+/*启德留学-成长日记*/
+body{ background: #f3f3f4;font-size: 14px;font-family:微软雅黑;}
+
+#top{background: #eeeff4;}
+.top_box{width: 1000px;height: 44px;margin: 0 auto;line-height: 44px;}
+.top_menu a{color: #8a8c90;font-size: 13px;}
+.top_menu{float: left;padding-left: 20px;}
+.top_menu li{float: left;padding-right: 16px;}
+.top_menu .brand{padding-right: 16px; border-right: 1px solid #8a8c90; }
+.top_bar{float: right;padding-right: 20px;}
+.top_yanse {color:#8a8c90;}
+.top_bar .phone{color:#8a8c90; font-weight: bold;background:url(images/top-phone.png) no-repeat 0 13px;padding-left: 26px;}
+.top_bar .user{ padding-left: 44px; padding-right: 4px;}
+.top_bar .register{padding-left: 4px;}
+
+#header{background: #ffffff;}
+.headerc{width: 1000px;margin: 0 auto;}
+.headerc_l{margin-top: 6px; padding-left: 20px;}
+
+.headerc_r{padding-right: 10px;}
+.headerc_r .hrl{padding-left:40px;}
+.headerc_r a{color: #686966;display: block;padding:0 10px;height: 54px;line-height: 54px;}
+.headerc_r a:hover{color: #fff;background:#00bca8;}
+.headerc_r .action{background:#00bca8; color: #fff;}
+
+
+#nav{background:#41b9ac;}
+.nav_box{width: 1000px;margin: 0 auto; }
+.nav_boxu{padding-left: 20px;}
+.nbul{margin-right: 20px; }
+.nbul a{color: #fff;display: block;padding:0 30px;height: 38px;line-height: 38px;}
+.nbul a:hover{background: #009f8b;}
+.nbul .action{background: #009f8b;}
+
+.content_top{margin-bottom:30px;height: 296px;background: #00374a url(images/content_ad1.png) no-repeat center 0px ;}
+#ad{width: 1000px;height: 296px;margin: 0 auto;}
+
+#main{background: #fff; width:1000px;margin:0 auto;margin-bottom: 62px;}
+.main_box1{width: 1000px; border-bottom: 1px solid #f3f3f4;}
+.main_box1 .main_nav{ background: url(images/main_point.png) no-repeat 22px 16px;height: 52px;line-height: 52px;padding-left: 50px;color: #979597;}
+.main_box1 .main_nav a{color: #979597;}
+
+.main_box1_r{padding:11px 10px 0 0;}
+.main_box1 .search{width: 190px;height: 30px;background: #e8edf3 ;border-radius:2px;border: 1px solid #b6c8d7;}
+
+.search .ico011{display:inline-block;width:36px ;height:26px; background:url(images/main_box1_bg.png) no-repeat 8px 4px; }
+.search .ico022{display: inline-block;width:112px;height: 20px;border:1px solid #d8e1ea;margin-top: 4px;color: #bab9b9;}
+.search .btn1{background: url(images/main_box1_go.png) no-repeat;width:24px ;height:22px;border: none;margin-top: 4px;}
+
+.main_box2{border-bottom: 1px solid #f3f3f4;padding:14px 0 22px 22px;}
+.main_box2 .select {height: 34px; line-height: 34px;color: #706f70;}
+.main_box2 .select a{padding: 4px 8px;margin-right:24px;color: #706f70;}
+.main_box2 .select .mbsa{background: #26aa9b;color: #fff;margin-left:14px ;}
+.main_box2 .search{padding: 12px 0 0 ;}
+.main_box2 .search a{background:#006098 ;border-radius:4px;display: block;color: #fff; width: 112px;height: 32px;line-height: 32px; margin:0 auto;padding-left: 56px;}
+
+
+.main_box3 .result{padding: 22px 22px 0 22px;  }
+.main_box3 .result_left{background: url(images/main_box3_bg.png) no-repeat 0 2px;padding-left: 28px;height: 50px;color: #979597;}
+.main_box3 .result_right{padding-left:18px;}
+
+.box3lb{margin-left: 22px;}
+.box3lb_l{width:302px;height: 325px;border-bottom:solid 3px #f3f3f4;border-right:solid 3px #f3f3f4;margin-right: 20px;margin-bottom: 26px;}
+.box3lb_ld{padding:22px 16px 0 16px;background: #393b3a;color: #fff;line-height: 28px;height: 302px;}
+.box3lb_a{font-size: 16px;color:#00374a;line-height: 26px; padding:14px 8px 0 10px;display: block;}
+
+.box4{margin-top:14px; }
+.box4_lb{margin-left: 328px;padding-bottom: 44px;}
+.box4_a{display: block;margin-right: 12px;border: solid 1px #7d7d7d;padding: 5px 10px; color: #828082;}
+.box4_a:hover{color: #fff; background: #24aa9b;border: solid 1px #24aa9b;}
+.box4_dd{margin-right: 12px;}
+.box4 .action{color: #fff; background: #24aa9b;border: solid 1px #24aa9b;}
+
+#footer{background: #00344d;}
+.footer_box{width: 1000px;margin:0 auto;}
+.footer_nav{padding-top: 50px; height: 90px;}
+.footer_nav .nav1{padding-left: 268px;}
+.footer_nav .nav2{padding-left: 78px;}
+.footer_nav .foot_l{padding-right: 50px;color: #fff;height: 32px; line-height: 32px;}
+
+.footer_logo{height:52px; background: url(images/footer_logo.png) no-repeat 200px 0;padding-left:400px ;padding-bottom: 64px;}
+.footer_logo span{color: #0d6a97; font-size: 12px;line-height: 25px; }
+
+
+/*启德留学-成长日记完 */
+
+/*启德留学-启德简介 */
+.qdjj_box2{margin-top:38px;}
+.qdjj_h1{color: #26aa9b;font-size: 22px;text-align:center;padding-bottom:26px ;}
+.qdjj_box2_1{margin-left: 22px;margin-bottom: 30px; padding:30px 0 0 360px; background: url(images/qdjj_box2_bg.png)no-repeat;height: 296px;}
+.qdjj_box2_u{padding-right: 46px;}
+.qdjj_box2_bt{font-weight:bold;font-size: 16px;padding-bottom:15px;color: #00344d;}
+.qdjj_box2_jj{color: #716e70;height: 24px;line-height: 24px;}
+
+.qdjj_box2_2{padding:18px 0 20px 22px; border-bottom: 1px solid #f3f3f4;}
+.qdjj_box2_r{padding-left: 22px;}
+.qdjj_h2{font-weight:bold;font-size: 16px;padding-bottom:12px;color: #00344d;}
+.qdjj_box2_nr{width: 878px;line-height: 22px;color: #716e70;}
+.qdjj_box2_no{border: none;padding-bottom: 60px;}
+/*启德留学-启德简介 完*/
+
+/*启德留学-提升项目 */
+.tsxm_box3lb_l{width:302px;border: solid 1px #ebebeb; border-bottom:solid 4px #f3f3f4;border-right:solid 4px #f5f5f5;margin-right: 16px;margin-bottom: 16px;}
+.tsxm_box3lb_a{font-size: 16px; background: #26aa9b;width: 286px;height: 68px;padding:22px 0 0 16px;display: block;color: #fff;}
+.tsxm_box3lb_a span{font-size: 14px;}
+/*启德留学-提升项目 完*/
+
+
+
+/*启德留学-新闻动态详情页 */
+.xwdtxqy_box2{padding: 18px 0 44px 22px; border-bottom: 1px solid #f3f3f4;}
+.xwdtxqy_box_l{border: 10px solid #f1f2f4;}
+.xwdtxqy_box_r{padding-left: 60px;}
+.xwdtxqy_box_p{width: 232px;height: 46px;line-height: 46px;padding-left:42px; border-bottom: 1px solid #edeef0;}
+.xwdtxqy_box_sj{background: url(images/xwdtxqy_box_sj.png) no-repeat left 11px;}
+.xwdtxqy_box_ly{background: url(images/xwdtxqy_box_ly.png) no-repeat left 13px;}
+.xwdtxqy_box_ren{background: url(images/xwdtxqy_box_ren.png) no-repeat 4px 11px;}
+.xwdtxqy_box_dy{width: 412px; line-height: 24px;padding:25px 0;}
+.xwdtxqy_box2_zx{width: 146px;height: 40px; line-height: 40px;text-align: center; background: #e96c1c;color: #fff;font-size: 16px;display: block;margin-left: 2px;}
+
+.xwdtxqy_box3{padding: 32px 50px 40px 38px; line-height: 36px; text-indent:2em;}
+
+/*启德留学-新闻动态详情页 完*/
+
+
+/*启德留学-提升项目详情页 */
+.tsxmxqy_h1{color: #26aa9b;font-size: 22px;text-align:center;padding-bottom:26px;}
+.tsxmxqy_box_r{padding-left: 58px; color: #606060;}
+.tsxmxqy_box_hd{background: url(images/tsxmxqy_box_hd.png)no-repeat left 11px;}
+.tsxmxqy_box_xm{padding-top: 35px;padding-bottom:6px;}
+.tsxmxqy_box_xmnr{padding-right:38px;}
+.tsxmxqy_box_nr1{font-weight: bold; text-align: center;padding-top: 10px;}
+.tsxmxqy_box_nr2{padding-top: 2px;text-align: center; width: 116px;}
+.tsxmxqy_box3{padding: 32px 50px 35px 38px; line-height: 36px; text-indent:2em;border-bottom: 1px solid #edeef0;}
+.tsxmxqy_box2_zx{width: 146px;height: 40px; line-height: 40px;text-align: center; background: #e96c1c;color: #fff;font-size: 16px;display: block;margin-left: 2px;}
+.tsxmxqy_box4_zx{margin:0 auto; }
+.tsxmxqy_box4{padding:30px 0 36px;position: relative;}
+
+.tsxmxqy_box4_more{position: absolute;top:40px;left: 898px; color: #747676;background: url(images/tsxmxqy_box4_jia.png)no-repeat 66px 0px;width: 83px;height: 16px;line-height: 16px;}
+
+/*启德留学-提升项目详情页 完*/
+/*启德留学-活动资讯详情页 */
+.hdzxxqy_box_dw{background: url(images/hdzxxqy_box2_dw.png) no-repeat 4px 11px;}
+.hdzxxqy_box2_zx{width: 146px;height: 40px; line-height: 40px;text-align: center; background: #e96c1c;color: #fff;font-size: 16px;display: block;margin-left: 2px; margin-top:12px;}
+.hdzxxqy_box4{border-bottom: 1px solid #f3f3f4;}
+.hdzxxqy_box4_h{background: url(images/hdzxxqy_box4_gw.png)no-repeat;padding-left: 70px; color: #00344c;font-size: 16px;line-height: 48px;height: 48px; margin: 28px 0 12px 26px;}
+.hdzxxqy_box4_jianjie{background: #f6f6f6;margin:0 20px 24px 22px;padding:36px 0 30px 30px;}
+.hdzxxqy_box4_img{padding-right: 30px;}
+.hdzxxqy_box4_img p{text-align: center;padding-top: 14px; font-size: 20px;}
+.hdzxxqy_box4_zx{margin:0 auto;border-radius: 6px; margin-top: 18px;}
+.hdzxxqy_box4_jjnr{border-left: solid 1px #dbdbdb;color: #3b383a;padding-left:32px;line-height: 30px;}
+.hdzxxqy_box4_jjnr span{font-weight: bold;}
+.hdzxxqy_box4_logo {padding-top:138px;padding-left: 30px;}
+.hdzxxqy_box4_jb{background:url(images/hdzxxqy_box4_jb.png)no-repeat; }
+
+
+/*启德留学-活动资讯详情页 完*/
+/*启德留学-服务团队*/
+.fwtd_box2{margin-top: 38px; border-bottom: solid 1px #edeef0;}
+.fwtd_box2_lb{padding-left: 12px;}
+.fwtd_renwu{position: relative;padding-bottom: 46px;padding-right:56px;}
+.fwtd_renwu_no{padding-right: 0px;}
+.fwtd_tu{padding-bottom:18px;}
+.fwtd_yue{position: absolute;top: 184px;left: 166px;}
+.fwtd_renwu_p{text-align: center; width: 198px;}
+.fwtd_wen{font-size: 20px;color: #3b383a;}
+.fwtd_wen:hover {border-bottom: solid 3px #26aa9b;}
+.fwtd_wen:visited{border-bottom: solid 3px #26aa9b;}
+.fwtd_box2_no{border: none;}
+
+
+.fwtd_box4{position: fixed; left: 0px; top: 0px;background: #000;background: rgba(0,0,0,0.5); height: 100%; width: 100%; }
+.fwtd_box4_tanchu{ width: 770px;height: 366px; position: fixed; left: 50%; top: 50%; margin-top:-183px;margin-left:-385px; padding:36px 0 0 30px;position: relative; border: solid #26aa9b 1px; background:#f2f2f2;}
+.fwtd_box4_logo{position: absolute; top:234px;left:626px;}
+.fwtd_box4_x{position: absolute; top:10px;left:766px;border: solid #26aa9b 1px; width: 20px;height: 20px;line-height: 20px;text-align: center;color: #26aa9b;}
+
+/*启德留学-服务团队 完*/
+/*启德留学-成长日记详情页*/
+.czrjxqy_box_h1{color: #26aa9b;font-size: 22px;text-align:center;padding-bottom:34px;}
+.czrjxqy_box2{padding: 10px 0 44px 22px; border-bottom: 1px solid #f3f3f4;}
+.czrjxqy_box2_zx{width: 146px;height: 40px; line-height: 40px;text-align: center; background: #e96c1c;color: #fff;font-size: 16px;display: block;margin-left:2px;margin-top: 20px;}
+.czrjxqy_box_p{width: 274px;height: 46px;line-height: 46px;border-bottom: 1px solid #edeef0;}
+.czrjxqy_box_p span{font-weight: bold;}
+.czrjxqy_box3{padding-top:38px; border-bottom: 1px solid #f3f3f4;}
+.czrjxqy_box3_content{padding-left: 34px;}
+.czrjxqy_box3_l1{height: 136px;margin-top:48px; padding:20px 54px 0 98px;background: url(images/czrjxqy_box3_bg1.png)no-repeat bottom left;line-height: 26px;}
+.czrjxqy_box3_r{width: 400px; padding-left: 44px; line-height: 30px;}
+.czrjxqy_box3_l2{height: 149px;padding:60px 54px 0 98px;background: url(images/czrjxqy_box3_bg2.png)no-repeat;line-height: 26px;}
+.czrjxqy_box3_l3{height: 160px;padding:60px 54px 0 98px;background: url(images/czrjxqy_box3_bg3.png)no-repeat;line-height: 26px;}
+
+.czrjxqy_box4{position: relative; border-bottom: 1px solid #f3f3f4;padding-bottom: 26px; padding-left:20px ;}
+.czrjxqy_box4_l{border: solid #1ab3a3 1px;width: 222px; margin-right: 20px;}
+.czrjxqy_box4_l span{display: block; background:#1ab3a3;width: 222px; height: 52px;line-height: 52px;text-align: center; color: #fff;}
+.czrjxqy_box4_l p{line-height: 26px; padding:6px 10px 18px 14px;}
+.czrjxqy_box4_bgl{position: absolute;top:126px;left:21px;}
+.czrjxqy_box4_bgr{position: absolute;top:126px;right:24px;}
+
+.czrjxqy_box5{border-bottom: 1px solid  #edeef0;padding-top:30px;padding-bottom: 30px;}
+.czrjxqy_box5_z{padding-left: 22px; }
+.czrjxqy_box5_l img{display:block;}
+.czrjxqy_box5_lwen{background: #00344c;padding:16px 0 14px; text-align:center;color: #fff; }
+.czrjxqy_box5_lwen1{font-size: 18px;}
+
+.czrjxqy_box5_r{width: 704px;line-height: 30px;padding-left: 22px;}
+.czrjxqy_box5_r1{border-bottom: 1px solid #edeef0;padding-bottom: 12px;}
+.czrjxqy_box5_r2{padding-top: 22px;}
+.czrjxqy_box5_zx{margin-top: 10px;}
+
+.czrjxqy_box6{padding-bottom:66px; padding-top: 30px;}
+.czrjxqy_box6_wenzi{margin-left: 22px;padding:30px 60px 34px 90px; background: url(images/czrjxqy_box6_xsgy.png)no-repeat;line-height: 30px;}
+
+.czrjxqy_box7{position: relative;padding-bottom: 32px;}
+.czrjxqy_box7_more{position: absolute;top:10px;left: 898px; color: #747676;background: url(images/tsxmxqy_box4_jia.png)no-repeat 66px 0px;width: 83px;height: 16px;line-height: 16px;}
+
+
+/*启德留学-成长日记详情页 完*/
+/*启德留学-服务内容*/
+.fwnr_box{padding-bottom:48px; border-bottom: 1px solid #edeef0; }
+.fwnr_h1{color: #26aa9b;font-size: 22px;text-align:center;padding:38px 0 34px;}
+.fwnr_box2{padding-left: 26px;}
+.fwnr_box2_l{width: 174px;height: 138px; color: #fff;padding:144px 16px 0; line-height: 30px;margin-right: 40px}
+.fwnr_box2_1{background: url(images/fwnr_box2_1.png)no-repeat;}
+.fwnr_box2_2{background: url(images/fwnr_box2_2.png)no-repeat;}
+.fwnr_box2_3{background: url(images/fwnr_box2_3.png)no-repeat;}
+.fwnr_box2_4{background: url(images/fwnr_box2_4.png)no-repeat; margin-right: 0px;}
+
+.fwnr_box3{padding-left: 26px;}
+.fwnr_box3_l{background: url(images/fwnr_box3_l.png);width:308px;height: 94px;margin-right:6px;font-size: 18px;padding-top:344px;color: #fff;text-align: center;}
+.fwnr_box3_r{color: #fff;}
+.fwnr_box3_r00{width: 634px;height: 55px;padding-top:14px;}
+.fwnr_box3_r1{background: #00354e;border-bottom: 1px solid #eef2f3;}
+.fwnr_box3_r2{background: #08415c;border-bottom: 1px solid #dee6e9;}
+.fwnr_box3_r3{background: #0e4d6b;border-bottom: 1px solid #dfe7eb;}
+.fwnr_box3_r4{background: #175d7e;border-bottom: 1px solid #e0e9ee;}
+.fwnr_box3_r5{background: #1f6b8f;border-bottom: 1px solid #d2e1e9;}
+.fwnr_box3_r6{background: #2c7ea4;width: 634px;height:73px;padding-top:16px;}
+
+.fwnr_box3_r11{color: #23eed9; font-size: 38px;border-right:dashed 1px #d5dbe0;width: 40px;padding-left: 30px;height: 40px;line-height: 40px;}
+.fwnr_box3_r12{padding-left: 26px;}
+.fwnr_box3_r121{font-size: 16px;padding-bottom: 2px;}
+.fwnr_box3_r122{font-size: 14px;}
+.fwnr_box3_r12 span{color: #23eed9;}
+.fwnr_box3_r6 .fwnr_box3_r12{width: 528px;}
+
+.fwnr_box4{padding-left: 26px;}
+.fwnr_box4_l{width: 276px; padding-right: 58px;}
+.fwnr_box4_no{padding-right: 0px;}
+.fwnr_box4_list{margin-top: 14px; background: url(images/fwnr_box4_nr.png)no-repeat;font-weight: bold; line-height: 20px;padding-bottom: 12px; padding-left:52px ;border-bottom: dashed 1px #00354e;color: #00354e;}
+.fwnr_box4_wen{padding:12px 0 6px 6px;}
+.fwnr_box4_wen p{height: 20px;line-height: 20px;color: #545353;}
+
+.fwnr_box5_u{margin:0 auto; width: 714px;}
+.fwnr_box5_l{margin-right: 42px;padding-bottom:8px;margin-bottom:26px;}
+.fwnr_box5_no{margin-right: 0px;}
+.fwnr_box5_gj{width: 146px; height: 38px;line-height: 38px; text-align: center;background: #adadad;display: block;font-size: 18px;color: #fff;}
+.fwnr_box5_u .action{background:url(images/fwnr_box5_xia.png)no-repeat 66px 38px; }
+.fwnr_box5_u .action .fwnr_box5_gj{background: #25a99a;}
+.fwnr_box5_l:hover{background:url(images/fwnr_box5_xia.png)no-repeat 66px 38px;}
+.fwnr_box5_gj:hover{background: #25a99a;}
+
+.fwnr_box5_box{background: #e7e7e8 ;width: 932px;margin-left: 26px;padding: 18px 0 24px 16px;}
+.fwnr_box5_box1{position: relative;padding-right: 32px;}
+.fwnr_box5_box1s{width: 100px;height:142px;background: #25a99a;color: #fff;font-size: 20px;line-height: 142px;text-align: center;}
+.fwnr_box5_box1c{position: absolute;top:141px;left: 90px;}
+.fwnr_box5_box1x{width: 91px;height:142px;background: #00344d;color: #fff;font-size:18px;line-height: 142px;text-align: center;}
+.fwnr_box5_box2{padding-right: 40px;width: 230px;}
+.fwnr_box5_no{padding-right: 0px;}
+.fwnr_box5_box2s{height:60px;background: #00344d;text-align: center;color: #fff; font-size: 16px;line-height: 24px;padding-top: 12px;}
+.fwnr_box5_box2c{height: 144px;background: #fff; color: #000;padding:20px 0 0 8px;}
+.fwnr5_box2c{padding:0 0 8px 22px;background: url(images/fwnr_box5_star.png)no-repeat 0 4px;}
+.fwnr5_box2c2{font-size: 12px;}
+
+.fwnr_box5_box2x{height: 46px;background: #f56e13;text-align: center;}
+.fwnr_box5_box2x a{color: #fff;line-height: 46px;}
+/*启德留学-服务内容 完*/
+/*启德留学-主页*/
+.index_content_top{height:494px;background:url(images/index_ad.png) no-repeat center 0px ;}
+.index_ad{width: 1000px; height:154px;margin:0 auto; padding-top: 340px;}
+.index_ad_s{margin:0 auto; width: 434px;}
+.index_ad_so{ width: 182px;height: 42px;line-height: 42px;display: block;font-size: 16px; text-align: center;border-radius: 4px;color: #fff;}
+.index_ad_sl{border: solid #fff 1px;}
+.index_ad_sr{border: solid #e96c1c 1px;background: #e96c1c;}
+.index_ad_x{margin:0 auto; width: 54px;margin-top: 70px;}
+.index_ad_dian{display: block; background: blue;width: 10px;height: 10px; overflow: hidden; border-radius:5px; margin-right: 12px;}
+.index_ad_no{margin-right: 0px;}
+.index_ad_dian.action{ background: #fff;}
+
+.index_box{width: 1000px;padding-top: 46px;margin:0 auto;}
+.index_box_h{color: #202020;font-size: 34px;text-align: center;padding-bottom: 4px;font-weight: normal;}
+.index_box_h2{color: #26aa9b;font-size:20px;text-align: center;}
+
+
+.index_box2{background: #fff;}
+.index_box2 .index_box_h2{padding-bottom: 46px;}
+.index_box2 .index_box{position: relative;}
+.index_box2_more{position: absolute;top:78px;right: 0px;color: #e96c1c;width:156px;height:38px;line-height: 38px;text-align: center; border:solid 2px #f5ba95;border-radius:8px;font-size: 16px;}
+.index_box2_left{margin-right: 16px;margin-top: 170px;}
+.index_box2_tuwen{box-shadow:4px 4px 3px #e5e5e5;margin-right: 24px;}
+.index_box2_wen{width: 258px;padding: 10px 14px 20px 8px;}
+.index_box2_bt{color: #444344; font-size:16px ;font-weight: bold;line-height: 24px;padding-bottom: 8px;}
+.index_box2_nr{color: #716e70; width: 216px;line-height: 22px;padding-bottom: 24px;}
+.index_box2_rq{color: #a19da0;}
+.index_box2_tuwen3{margin-right: 12px;}
+.index_box2_right{margin-top: 170px;}
+.index_box2_dian{margin:0 auto; width: 54px;margin-top: 26px; padding-bottom: 62px;}
+.index_box2_dian .action{background: url(images/index_box1_dian1.png)no-repeat;}
+
+
+.index_box3{background: #f4f5f9;}
+.index_box3_s{padding:46px 0 24px 12px;}
+.index_box3_sl{background: url(images/index_box3_bgxian.png)repeat-x 0 69px; padding-right: 26px;}
+.index_box3_slno{padding-right: 0px;}
+.index_box3_sa{background: url(images/index_box3_bgdian.png)no-repeat center bottom;display: block;width: 73px;height: 71px;line-height: 20px;text-align: center;padding-top:4px;font-weight: bold;color: #4f4d4b;}
+.index_box3_sa:hover{background: url(images/index_box3_bg.png)no-repeat;color: #fff;}
+.index_box3_sl .action{background: url(images/index_box3_bg.png)no-repeat;color: #fff;}
+.index_box3_xl{font-size: 48px; color: #4f4d4b;padding-left: 24px;padding-right: 26px; background: url(images/index_box3_xbg.png)no-repeat right 10px;}
+.index_box3_xc{padding:8px 0 60px 20px;line-height: 24px;}
+.index_box3_xc span{font-weight: bold;}
+
+.index_box3_xr{ width: 92px;height: 32px;line-height: 32px;display: block;font-size: 14px; text-align: center;border-radius:6px;margin-top: 14px;}
+.index_box3_xrl{border: solid #e36a11 1px;background: #fff;color: #e36a11;margin-right: 12px;}
+.index_box3_xrr{border: solid #e36a11 1px;background: #e36a11;color: #fff;margin-right: 32px;}
+
+.index_box4{background: #00344d;}
+.index_box4 .index_box_h{color: #fff;}
+.index_box4_z{padding:52px 0 74px 24px;}
+.index_box4_list{width: 272px;text-align: center; color: #fff;}
+.index_box4_l{padding-right: 70px;}
+.index_box4_c{padding-right:44px;}
+.index_box4_r{width: 316px;}
+.index_box4_img{padding-bottom: 36px;margin:0 auto;}
+.index_box4_bt{font-size:18px;padding-bottom: 20px ;font-weight: bold;}
+.index_box4_bk{width:36px ;height: 1px;border-bottom: 1px solid #1f8e8a;margin:0 auto;}
+.index_box4_nr{padding: 20px 0 30px;line-height: 26px;}
+.index_box4_lj{border: 1px solid #e96c1c; border-radius:6px;color: #e96c1c;width:158px;height: 42px;display:inline-block;line-height: 42px;font-size: 16px; }
+.index_box4 .action{background: #e96c1c; color: #fff;}
+.index_box4_lj:hover{background: #e96c1c; color: #fff;}
+
+.index_box5{background: #f4f5f9; padding-bottom: 72px;}
+.index_box5_fenlei{position: relative;width:360px; margin:0 auto;}
+.index_box5_more{position: absolute;top:60px;right:-312px;padding-right:28px;background: url(images/tsxmxqy_box4_jia.png)no-repeat center right;color: #747676;}
+.index_box5_zong{width: 180px;height: 46px;line-height:46px;margin: 40px 0px; color: #fff;display:block;text-align: center;}
+.index_box5_anli{font-size: 20px;background: #28ab9c; border-bottom-left-radius: 6px;border-top-left-radius: 6px;}
+.index_box5_riji{font-size: 18px;background: #00344c;border-top-right-radius: 6px;border-bottom-right-radius: 6px;}
+.index_box5_sanjiao{position: relative;}
+.index_box5_sjxia{position: absolute;top:86px ;left:90px; }
+
+.index_box5_list{padding-left: 24px;}
+.index_box5_l{width:286px;height:320px;box-shadow:4px 4px 3px #dbdce0;margin-right:22px;}
+.index_box5_lb{width: 258px;height: 298px;padding:22px 12px 0 16px;background: #393b3a;color: #fff;line-height: 28px;}
+.index_box5_lp{padding-top:12px; text-decoration: underline;}
+.index_box5_no{margin-right: 16px;}
+
+.index_box5_page{width: 56px;}
+.index_box5_shang{padding-bottom: 28px;width: 55px;height: 40px;display: inline-block;}
+.index_box5_xia{padding-top:14px;width: 55px;height: 40px;display: inline-block;}
+.index_box5_shu{width: 38px;height: 38px;border: 2px solid #f4f5f9; display: block;margin:0 auto; margin-bottom: 6px; color: #6d6b6d;font-size: 16px;line-height: 38px;text-align: center;font-weight: bold;}
+.index_box5 .action{color: #27ab9c;border: 2px solid #27ab9c;border-radius:21px;}
+.index_box5_shu:hover{color: #27ab9c;border: 2px solid #27ab9c;border-radius:21px;}
+
+
+.index_box6{background: #ececec;padding-bottom: 40px;}
+.index_box6_biaoge{padding:40px 0 36px 20px; background: url(images/index_box6_center.png)no-repeat center 32px;}
+
+.index_box6_biaoge table{height: 36px;line-height: 36px;color: #54565d; text-align: center; border:none;border-collapse:collapse;box-shadow: 5px 5px 4px #dbdce0;}
+.index_box6_tht{ background: #28ab9c; height: 42px;color: #fff;}
+.index_box6_ths{background: #f4f5f9;}
+.index_box6_tws{background: #fff;}
+.index_box6_left{padding-right: 40px;}
+.index_box6_left1{width:188px;}
+.index_box6_left2{width: 164px;}
+.index_box6_left3{width: 84px;padding:0 10px;line-height: 20px;}
+.index_box6_lefth{color: #28ab9c;}
+
+.index_box6_right1{width: 170px;}
+.index_box6_right2{width: 106px;padding:0 28px;line-height: 20px;}
+.index_box6_right3{width: 80px;padding:0 22px;line-height: 20px;}
+
+.index_box6_zixun{background: #e96c1c;width: 156px; height: 40px;color: #fff;line-height: 40px;text-align: center;display: block;margin:0 auto;font-size: 16px;border-radius: 6px;}
+/*启德留学-主页 完*/
