@@ -18,15 +18,12 @@ body{ background: #f3f3f4;font-size: 14px;font-family:微软雅黑;}
 
 #top{background: #eeeff4;}
 .top_box{width: 1000px;height: 44px;margin: 0 auto;line-height: 44px;}
-.top_menu a{color: #8a8c90;font-size: 13px;}
-.top_menu{float: left;padding-left: 20px;}
-.top_menu li{float: left;padding-right: 16px;}
-.top_menu .brand{padding-right: 16px; border-right: 1px solid #8a8c90; }
-.top_bar{float: right;padding-right: 20px;}
-.top_yanse {color:#8a8c90;}
-.top_bar .phone{color:#8a8c90; font-weight: bold;background:url(images/top-phone.png) no-repeat 0 13px;padding-left: 26px;}
-.top_bar .user{ padding-left: 44px; padding-right: 4px;}
-.top_bar .register{padding-left: 4px;}
+.top_l{color: #8a8c90;padding-left: 16px;}
+.top_brand{padding-left: 20px;border-right: 1px solid #c6c9cd;padding-right: 16px;}
+
+.top_phone{color:#8a8c90; font-weight: bold;background:url(images/top-phone.png) no-repeat;padding-left: 26px;}
+.top_user{color:#8a8c90; padding:0 4px 0 44px;}
+.top_register{color:#8a8c90; padding:0 20px 0 4px;}
 
 #header{background: #ffffff;}
 .headerc{width: 1000px;margin: 0 auto;}
@@ -352,7 +349,17 @@ body{ background: #f3f3f4;font-size: 14px;font-family:微软雅黑;}
 .index_box4_lj:hover{background: #e96c1c; color: #fff;}
 
 .index_box5{background: #f4f5f9; padding-bottom: 72px;}
-.index_box5_fenlei{position: relative;width:460px; margin:30px auto; font-size: 0;}
+.index_box5_fenlei{position: relative;width:364px; margin:30px auto; font-size: 0;}
+
+.index_box5_fenlei .tab1{ display: inline-block; width: 180px; height: 46px; background:#00344d; position: relative; font-size: 18px; text-align: center; line-height: 46px; cursor: pointer; color: #fff;}
+.index_box5_fenlei .tab1 i{ display: inline-block; width: 10px; height: 9px; background: url(./images/fwnr_box5_xia.png) 0 0 no-repeat; bottom: -9px; left: 50%; margin-left: -5px; position: absolute; display: none; }
+.index_box5_fenlei .active{ background:#28ab9c;}
+.index_box5_fenlei .active i{ display: inline-block; }
+
+
+
+
+
 .index_box5_more{position: absolute;top:60px;right:-312px;padding-right:28px;background: url(images/tsxmxqy_box4_jia.png)no-repeat center right;color: #747676;}
 .index_box5_zong{width: 180px;height: 46px;line-height:46px;margin: 40px 0px; color: #fff;display:block;text-align: center;}
 .index_box5_anli{font-size: 20px;background: #28ab9c; border-bottom-left-radius: 6px;border-top-left-radius: 6px;}
