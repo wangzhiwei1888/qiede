@@ -352,7 +352,7 @@ body{ background: #f3f3f4;font-size: 14px;font-family:微软雅黑;}
 .index_box4_lj:hover{background: #e96c1c; color: #fff;}
 
 .index_box5{background: #f4f5f9; padding-bottom: 72px;}
-.index_box5_fenlei{position: relative;width:360px; margin:0 auto;}
+.index_box5_fenlei{position: relative;width:460px; margin:30px auto; font-size: 0;}
 .index_box5_more{position: absolute;top:60px;right:-312px;padding-right:28px;background: url(images/tsxmxqy_box4_jia.png)no-repeat center right;color: #747676;}
 .index_box5_zong{width: 180px;height: 46px;line-height:46px;margin: 40px 0px; color: #fff;display:block;text-align: center;}
 .index_box5_anli{font-size: 20px;background: #28ab9c; border-bottom-left-radius: 6px;border-top-left-radius: 6px;}
@@ -360,8 +360,8 @@ body{ background: #f3f3f4;font-size: 14px;font-family:微软雅黑;}
 .index_box5_sanjiao{position: relative;}
 .index_box5_sjxia{position: absolute;top:86px ;left:90px; }
 
-.index_box5_list{padding-left: 24px;}
-.index_box5_l{width:286px;height:320px;box-shadow:4px 4px 3px #dbdce0;margin-right:22px;}
+.index_box5_list{padding-left: 24px; width: 920px; }
+.index_box5_l{width:286px;height:320px;box-shadow:4px 4px 3px #dbdce0;margin-right:22px; margin-bottom: 10px;}
 .index_box5_lb{width: 258px;height: 298px;padding:22px 12px 0 16px;background: #393b3a;color: #fff;line-height: 28px;}
 .index_box5_lp{padding-top:12px; text-decoration: underline;}
 .index_box5_no{margin-right: 16px;}
@@ -393,3 +393,18 @@ body{ background: #f3f3f4;font-size: 14px;font-family:微软雅黑;}
 
 .index_box6_zixun{background: #e96c1c;width: 156px; height: 40px;color: #fff;line-height: 40px;text-align: center;display: block;margin:0 auto;font-size: 16px;border-radius: 6px;}
 /*启德留学-主页 完*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
